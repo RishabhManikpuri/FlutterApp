@@ -29,6 +29,8 @@ class DemoListState extends State<DemoList> {
   final _biggerFont = const TextStyle(fontSize: 18.0);
   String _title = 'Flutter Demos';
 
+  String _title1 = 'Flutter Demos';
+
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
